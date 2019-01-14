@@ -34,6 +34,10 @@ td {
 	font-weight: bold;
 }
 
+th {
+	line-height: 35px;
+}
+
 span {
 	font-weight: bold;
 }
