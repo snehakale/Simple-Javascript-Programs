@@ -30,6 +30,20 @@ For Example : `switch(pet){
 					case 'Cat':
 						result = result + "Cat it is!" + "<br />";
 						break; ....`
+						
+**4. functionsDemo.html :**
+This file contains HTML code to display the results after execution of different types of functions in JavaScript.
+For Example : `<td>
+					<button id="element2" onclick="callDemoFunction2();">Function Pass by Parameters</button>
+				</td>`
+
+**5. functionDemo.js :**
+This file contains a JavaScript code for different types of JavaScript functions.
+For Example : `function demoFunction4(street, city, state) {
+		this.street = street;
+		this.city = city;
+		....
+	}`
 				
 ## References 
 1. [JavaScript if..else.. else if](https://www.w3schools.com/js/js_if_else.asp)
@@ -37,6 +51,8 @@ For Example : `switch(pet){
 3. [JavaScript For Loop](https://www.w3schools.com/js/js_loop_for.asp)
 4. [JavaScript While Loop](https://www.w3schools.com/js/js_loop_while.asp)
 5. [JavaScript Do..While statement](https://www.w3schools.com/jsref/jsref_dowhile.asp)
+6. [JavaScript Function Definitions](https://www.w3schools.com/js/js_function_definition.asp)
+7. [JavaScript Function Invocation](https://www.w3schools.com/js/js_function_invocation.asp)
 
 ## Author
 Sneha Kale
