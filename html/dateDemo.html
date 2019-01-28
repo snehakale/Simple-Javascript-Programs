@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Date Demo</title>
+		<!-- Link to stylesheet -->
+		<link rel="stylesheet" type="text/css" href="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/css/style.css">
+		<!-- Javascript Code -->
+		<script type="text/javascript" src="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/js/dateDemo.js">
+		</script>
+	</head>
+	<!-- Body part -->
+	<body>
+		<!-- Modal Box -->
+		<div class="modal-window" id="modal">
+			<div class="modal-div" id="modal-div">
+				<span class="close-button" onclick="closeModal()">&times;</span>
+				<span class="common-text-style modal-content" id="modal-content"></span>
+				<span class="clearfix"></span>
+			</div>
+		</div>
+		<!-- Table part-->
+		<table>
+			<tr> 
+				<th colspan = "2">Hotel Memorable Stay</th>
+			</tr>
+			<tr> 
+				<td colspan = "2">Customer Registration Form</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Name :</span>
+				</td>
+				<td>
+					<input type = "text" name = "name" id = "name" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>City</span>
+				</td>
+				<td>
+					<input type = "text" name = "city" id = "city" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Room No.</span>
+				</td>
+				<td>
+					<input type = "text" name = "room-number" id = "room-number" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Check In Date :</span>
+				</td>
+				<td>
+					<input type = "date" name = "check-in-date" id = "check-in-date" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span>Check Out Date :</span>
+				</td>
+				<td>
+					<input type = "date" name = "check-out-date" id = "check-out-date" />
+				</td>
+			</tr>
+			<tr> 
+				<td colspan = "2">
+					<button id="submit" name="submit" onclick="submitData()">Submit Data</button>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
