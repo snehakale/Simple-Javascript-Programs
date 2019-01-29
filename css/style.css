@@ -12,7 +12,7 @@ button:hover{
 	cursor: pointer;
 }
 
-table, 
+table,
 tr,
 th,
 td {
@@ -53,4 +53,58 @@ span {
 
 #submit:hover{
 	cursor: pointer;
+}
+
+/* Rules for Modal Box */
+.modal-window {
+	display: none;
+	z-index: 1;
+	border: 5px solid grey;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.modal-div {
+	width: 50%;
+	height: auto;
+	position: relative;
+	/*margin: auto;*/
+	margin-top: 5%;
+	margin-left: 15%;
+	padding: 10px;
+	border: 5px solid #114351;
+	background-color: #d1e0e0;
+	overflow: auto;
+	align-content: center;
+}
+
+.modal-content {
+	text-align: center;
+	float: left;
+	margin: 20px 5px 5px 20px;
+}
+
+.close-button {
+	float: right;
+	margin: 5px;
+	padding: 1px;
+	color: #2c4060;
+	font-size: 25px;
+	font-weight: bold;
+	border: 1px solid grey;
+}
+
+.close-button:hover {
+	cursor: pointer;
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
 }
