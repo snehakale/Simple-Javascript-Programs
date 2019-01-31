@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Maps Demo</title>
+		<!-- Link to stylesheet -->
+		<link rel="stylesheet" type="text/css" href="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/css/style.css">
+		<!-- Javascript Code -->
+		<script type="text/javascript" src="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/js/mapDemo.js">
+		</script>
+	</head>
+	<body>
+		<!-- call to Google maps API -->
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYB9eVDVx7McQm5QCkUR4oNiO_SjOQzJc&v=3&callback=initMap">
+        </script>
+		<!-- Table part-->
+		<table>
+			<tr> 
+				<th colspan="2">Maps Demo</th>
+			</tr>
+			<tr>
+				<td>
+					<span> City / Address :</span>
+				</td>
+				<td>
+					<input type="text" name="address" id="address" size="50" onblur=hideMarker()>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<button id="submit" name="submit" onclick="submitData()">Show Map</button>
+				</td>
+			</tr>
+			<tr> 
+				<td colspan="2">
+					<div id="map-div">
+						<div id="map"></div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
