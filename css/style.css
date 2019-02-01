@@ -108,3 +108,12 @@ span {
 	display: table;
 	clear: both;
 }
+
+/* Rules for map */
+#map {
+	height: 500px;
+}
+
+#map-div {
+	display: none;
+}
