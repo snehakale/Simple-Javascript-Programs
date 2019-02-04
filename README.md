@@ -18,7 +18,7 @@ For Example : `table {
 }`
 
 **2. loopDemo.html :**
-This file contains HTML code to display the results after execution of conditional statements and loops using tabular format.  
+This file contains HTML code to display the results after execution of conditional statements and loops using tabular format.
 For Example : `... <tr>
 				<td>
 					<button id="element2" onclick="loopFn2();">switch.. ase</button>
@@ -83,6 +83,19 @@ This file contains a JavaScript code for dates demo program.
 For Example : `var checkindateoutput = (checkInDateTime.getMonth()+1) + "/"+ checkInDateTime.getDate() +"/"
 								  + checkInDateTime.getFullYear(); ..`
 
+**12. mapDemo.html :**	
+This file contains HTML code for displaying Map for entered location.
+For Example: `<td colspan="2">
+					<button id="submit" name="submit" onclick="submitData()">Show Map</button>
+				</td>...`
+								  
+**13. mapDemo.js :**
+This file contains a JavaScript code for loading Google Maps API and performing related functions.
+For Example: `var initMap = function() {
+	geocoder = new google.maps.Geocoder();
+	map = new google.maps.Map(document.getElementById('map'), {
+			center: {lat: 33.753746, lng: -84.386330}, ....`
+
 ## References
 1. [JavaScript if..else.. else if](https://www.w3schools.com/js/js_if_else.asp)
 2. [JavaScript Switch statement](https://www.w3schools.com/js/js_switch.asp)
@@ -96,6 +109,7 @@ For Example : `var checkindateoutput = (checkInDateTime.getMonth()+1) + "/"+ che
 10. [JavaScript RegExp](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)
 11. [JavaScript Dates](https://www.w3schools.com/js/js_dates.asp)
 12. [Difference between dates in JavaScript](https://stackoverflow.com/questions/3224834/get-difference-between-2-dates-in-javascript)
+13. [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 ## Author
 Sneha Kale
