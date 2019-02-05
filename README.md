@@ -7,7 +7,10 @@ This project contains few programs practising on JavaScript concepts such as Loo
 1. Download / Clone the given Github Project.
 2. Unzip the folders and files.
 3. To run the programs, run the ***.html** files from **html** folder.
-
+4. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following. 
+`<script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=Google_API_Key&v=3&callback=initMap">
+        </script>`
 ## Code Examples
 **1. style.css :**
 This file contains rules for different selectors in order to display stylized html pages.
