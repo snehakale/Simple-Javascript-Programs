@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Events Demo</title>
+		<!-- Link to stylesheet -->
+		<link rel="stylesheet" type="text/css" href="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/css/style.css">
+		<!-- Javascript Code -->
+		<script type="text/javascript" src="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/js/eventsDemo.js">
+		</script>
+	</head>
+	<!-- Body part -->
+	<body>
+		<!-- Table part-->
+		  <table>
+			    <tr>
+		          <th colspan="2">Events Handling Javascript Demo</th>
+  			  </tr>
+          <tr>
+              <th> Events </th>
+              <th> Results </th>
+          </tr>
+  			  <tr>
+  				    <td>
+  					      <span>Onclick</span>
+  				    </td>
+  				    <td>
+  					     <button type="button" name="btn1" onclick="showDate()">
+									 Get the date!!</button>
+                 <br>
+                 <span id="span1"></span>
+  				    </td>
+  			  </tr>
+          <tr>
+  				    <td>
+  					      <span>Onchange</span>
+  				    </td>
+  				    <td>
+                  <select id="selectList" onchange="showSelected()">
+                      <option value="None">Select a pet...</option>
+                      <option value="Dog">Dog</option>
+                      <option value="Cat">Cat</option>
+                      <option value="Horse">Horse</option>
+                      <option value="Rabbit">Rabbit</option>
+                  </select>
+                  <br>
+                  <span id="span2"></span>
+  				    </td>
+  			  </tr>
+          <tr>
+  				    <td>
+  					      <span>Onmouseover and Onmouseout</span>
+  				    </td>
+  				    <td>
+                  <span id="span3" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse over me!!</span>
+  				    </td>
+  			  </tr>
+          <tr>
+  				    <td>
+  					      <span>Onkeypress</span>
+  				    </td>
+  				    <td>
+                  <input id="demo" onkeypress="showKeyPrssed()" type="text" size="10">
+									<br>
+									<span id="span4"></span>
+  				    </td>
+  			  </tr>
+      </table>
+	</body>
+</html>
