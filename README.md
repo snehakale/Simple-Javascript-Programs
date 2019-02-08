@@ -7,10 +7,13 @@ This project contains few programs practising on JavaScript concepts such as Loo
 1. Download / Clone the given Github Project.
 2. Unzip the folders and files.
 3. To run the programs, run the ***.html** files from **html** folder.
-4. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following.
+4. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following. 
 `<script async defer
             src="https://maps.googleapis.com/maps/api/js?key=Google_API_Key&v=3&callback=initMap">
         </script>`
+  Check out this link to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) and after generating an API key, set the credentials including *HTTP Referrers*. 
+  For Example: `__file_url__//....Path..../mapDemo.html`
+
 ## Code Examples
 **1. style.css :**
 This file contains rules for different selectors in order to display stylized html pages.
@@ -86,12 +89,12 @@ This file contains a JavaScript code for dates demo program.
 For Example : `var checkindateoutput = (checkInDateTime.getMonth()+1) + "/"+ checkInDateTime.getDate() +"/"
 								  + checkInDateTime.getFullYear(); ..`
 
-**12. mapDemo.html :**
+**12. mapDemo.html :**	
 This file contains HTML code for displaying Map for entered location.
 For Example: `<td colspan="2">
 					<button id="submit" name="submit" onclick="submitData()">Show Map</button>
 				</td>...`
-
+								  
 **13. mapDemo.js :**
 This file contains a JavaScript code for loading Google Maps API and performing related functions.
 For Example: `var initMap = function() {
