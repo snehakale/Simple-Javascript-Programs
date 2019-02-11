@@ -7,11 +7,11 @@ This project contains few programs practising on JavaScript concepts such as Loo
 1. Download / Clone the given Github Project.
 2. Unzip the folders and files.
 3. To run the programs, run the ***.html** files from **html** folder.
-4. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following. 
+4. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following.
 `<script async defer
             src="https://maps.googleapis.com/maps/api/js?key=Google_API_Key&v=3&callback=initMap">
         </script>`
-  Check out this link to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) and after generating an API key, set the credentials including *HTTP Referrers*. 
+  Check out this link to [Get API Key](https://developers.google.com/maps/documentation/javascript/get-api-key) and after generating an API key, set the credentials including *HTTP Referrers*.
   For Example: `__file_url__//....Path..../mapDemo.html`
 
 ## Code Examples
@@ -89,12 +89,12 @@ This file contains a JavaScript code for dates demo program.
 For Example : `var checkindateoutput = (checkInDateTime.getMonth()+1) + "/"+ checkInDateTime.getDate() +"/"
 								  + checkInDateTime.getFullYear(); ..`
 
-**12. mapDemo.html :**	
+**12. mapDemo.html :**
 This file contains HTML code for displaying Map for entered location.
 For Example: `<td colspan="2">
 					<button id="submit" name="submit" onclick="submitData()">Show Map</button>
 				</td>...`
-								  
+
 **13. mapDemo.js :**
 This file contains a JavaScript code for loading Google Maps API and performing related functions.
 For Example: `var initMap = function() {
@@ -112,6 +112,18 @@ For Example : `function showKeyPrssed() {
    document.getElementById("span4").innerHTML = "Key has been presed in the input box!!";
 }...`
 
+**16. arraysDemo.html :**
+This file contains HTML code to display arrays and array methods.
+For Example : `<button type="button" name="button2" onclick="pushToArray()">
+                  Click here to Push</button>`
+
+**17. arraysDemo.js :**
+This file contains a JavaScript code to perform arrays and array methods.
+For Example : `function pushToArray() {
+   fruits.push("Kiwi");
+   document.getElementById("demo2").innerHTML = fruits;
+}`
+
 ## References
 1. [JavaScript if..else.. else if](https://www.w3schools.com/js/js_if_else.asp)
 2. [JavaScript Switch statement](https://www.w3schools.com/js/js_switch.asp)
@@ -127,6 +139,7 @@ For Example : `function showKeyPrssed() {
 12. [Difference between dates in JavaScript](https://stackoverflow.com/questions/3224834/get-difference-between-2-dates-in-javascript)
 13. [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)
 14. [JavaScript Events](https://www.w3schools.com/js/js_events.asp)
+15. [JavaScript Methods](https://www.w3schools.com/js/js_array_methods.asp)
 
 ## Author
 Sneha Kale
