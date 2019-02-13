@@ -6,8 +6,11 @@ This project contains few programs practising on JavaScript concepts such as Loo
 ## Pre-Requisite and Installation
 1. Download / Clone the given Github Project.
 2. Unzip the folders and files.
-3. To run the programs, run the ***.html** files from **html** folder.
-4. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following.
+3. Change the path values in all ***.html** files at the places of **YOUR_PATH** as per the following:
+`<link rel="stylesheet" type="text/css" href="YOUR_PATH/css/style.css">` and
+`<script type="text/javascript" src="YOUR_PATH/js/....js">`
+4. To run the programs, run the ***.html** files from **html** folder.
+5. To run the program for Maps demo, Change the Google Maps API key value in the mapDemo.html file at the place of Google_API_Key in the following.
 `<script async defer
             src="https://maps.googleapis.com/maps/api/js?key=Google_API_Key&v=3&callback=initMap">
         </script>`
