@@ -1,9 +1,9 @@
 ## Project Title
 **Simple JavaScript Programs**
 
-This project contains few programs practising on JavaScript concepts such as Loops, Operators, Functions, Forms etc.
+This project contains few programs practising on JavaScript concepts such as Loops, Operators, Functions, Forms, Event Handling etc. This project also uses HTML and CSS for UI.
 
-## Pre-Requisite and Installation
+## Pre-Requisites and Installation
 1. Download / Clone the given Github Project.
 2. Unzip the folders and files.
 3. Change the path values in all ***.html** files at the places of **YOUR_PATH** as per the following:
@@ -143,6 +143,7 @@ For Example : `function pushToArray() {
 13. [Maps JavaScript API](https://developers.google.com/maps/documentation/javascript/tutorial)
 14. [JavaScript Events](https://www.w3schools.com/js/js_events.asp)
 15. [JavaScript Methods](https://www.w3schools.com/js/js_array_methods.asp)
+16. [CSS Tutorial](https://www.w3schools.com/css/)
 
 ## Author
 Sneha Kale
