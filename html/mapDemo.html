@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -10,10 +10,11 @@
 		<script type="text/javascript" src="YOUR_PATH/js/mapDemo.js">
 		</script>
 	</head>
+	<!-- Body part -->
 	<body>
 		<!-- call to Google maps API -->
         <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=Google_API_Key&v=3&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY&v=3&callback=initMap">
         </script>
 		<!-- Table part-->
 		<table>
@@ -22,15 +23,17 @@
 			</tr>
 			<tr>
 				<td>
-					<span> City / Address :</span>
+					<span>City / Address :</span>
 				</td>
 				<td>
-					<input type="text" name="address" id="address" size="50" onblur=hideMarker()>
+					<input type="text" name="address" id="address" size="50"
+						onblur=hideMarker()>
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2">
-					<button id="submit" name="submit" onclick="submitData()">Show Map</button>
+					<button id="submit" name="submit" onclick="submitData()">
+						Show Map</button>
 				</td>
 			</tr>
 			<tr>
@@ -41,6 +44,5 @@
 				</td>
 			</tr>
 		</table>
-
 	</body>
 </html>
