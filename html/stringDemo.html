@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8" />
+		<title>Strings Demo</title>
+		<!-- Link to stylesheet -->
+		<link rel="stylesheet" type="text/css" href="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/css/style.css">
+		<!-- Javascript Code -->
+		<script type="text/javascript" src="C:/Users/Sneha/Desktop/visual studio projects/SampleJSProject/js/stringDemo.js">
+		</script>
+	</head>
+	<!-- Body part -->
+	<body>
+		<!-- Table part-->
+		<table>
+			<tr>
+				<th colspan="2">Javascript String and String Methods</th>
+  	  </tr>
+      <tr>
+  		  <th>
+  		  	<span>String / String Methods</span>
+  	    </th>
+  			<td>
+  				<span>var str = "I can eat Banana";</span>
+  			</td>
+  		</tr>
+      <tr>
+  			<td>
+  				<span>String Length</span>
+  			</td>
+  			<td>
+        	<button type="button" name="button1" onclick="calculateLength()">
+          	Click here for String Length</button>
+          <br />
+          <span id="demo1"></span>
+  			</td>
+  		</tr>
+      <tr>
+  			<td>
+  				<span>String Concat</span>
+  			</td>
+  			<td>
+          <span>var strToAdd = " and Banana."</span>
+          <br />
+        	<button type="button" name="button2" onclick="concatStrings()">
+          	Click here to Concat</button>
+          <br />
+          <span id="demo2"></span>
+        </td>
+  		</tr>
+      <tr>
+  			<td>
+  				<span>String search Method</span>
+  			</td>
+  			<td>
+          <span>var pos = str.search("Banana")</span>
+          <br />
+        	<button type="button" name="button3" onclick="callSearch()">
+          	Click here to call search</button>
+          <br />
+          <span id="demo3"></span>
+  			</td>
+  		</tr>
+      <tr>
+  			<td>
+  				<span>String indexOf and lastIndexOf Methods</span>
+  			</td>
+  			<td>
+          <span>var position1 = str.indexOf("Banana")</span>
+          <br />
+        	<button type="button" name="button4" onclick="callIndexOf()">
+          	Click here to call indexOf</button>
+          <br />
+          <span id="demo4"></span>
+          <br />
+          <span>var position2 = str.lastIndexOf("Banana")</span>
+          <br />
+        	<button type="button" name="button5" onclick="callLastIndexOf()">
+          	Click here to call lastIndexOf</button>
+          <br />
+          <span id="demo5"></span>
+  			</td>
+  		</tr>
+      <tr>
+        <td>
+          <span>Substring methods</span>
+        </td>
+        <td>
+          <span>var txt1 = str.substrig(10, 20)</span>
+          <br />
+          <button type="button" name="button6" onclick="callSubstring()">
+            Click here to call Substring</button>
+          <br />
+          <span id="demo6"></span>
+          <br />
+          <span>var txt2 = str.substr(10, 6)</span>
+          <br />
+          <button type="button" name="button7" onclick="callSubstr()">
+            Click here to call substr</button>
+          <br />
+          <span id="demo7"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>String Slice method</span>
+        </td>
+        <td>
+          <span>var txt = str.slice(-7)</span>
+          <br />
+          <button type="button" name="button8" onclick="callSlice()">
+            Click here to Slice</button>
+          <br />
+          <span id="demo8"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>String Replace method</span>
+        </td>
+        <td>
+          <span>var newStr = str.replace("Banana", "Apple")</span>
+          <br />
+          <button type="button" name="button9" onclick="callReplace()">
+            Click here to Replace</button>
+          <br />
+          <span id="demo9"></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span>String Uppercase and Lowercase methods</span>
+        </td>
+        <td>
+          <span>var word1 = str.toUpperCase()</span>
+          <br />
+          <button type="button" name="button10" onclick="callUpperCase()">
+            Click here to Uppercase</button>
+          <br />
+          <span id="demo10"></span>
+          <br />
+          <span>var word2= str.toLowerCase()</span>
+          <br />
+          <button type="button" name="button11" onclick="callLowerCase()">
+            Click here to Lowercase</button>
+          <br />
+          <span id="demo11"></span>
+        </td>
+      </tr>
+    </table>
+	</body>
+</html>
