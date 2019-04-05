@@ -127,6 +127,18 @@ For Example : `function pushToArray() {
    document.getElementById("demo2").innerHTML = fruits;
 }`
 
+**18. stringDemo.html :**
+This file contains HTML code to display strings and string methods.
+For Example : `<button type="button" name="button5" onclick="callLastIndexOf()">
+          	Click here to call lastIndexOf</button>`
+
+**19. stringDemo.js :**
+This file contains a JavaScript code to perform string methods.
+For Example : `function callLastIndexOf() {
+    var position2 = str.lastIndexOf("Banana");
+    document.getElementById("demo5").innerHTML = position2;
+}`
+
 ## References
 1. [JavaScript if..else.. else if](https://www.w3schools.com/js/js_if_else.asp)
 2. [JavaScript Switch statement](https://www.w3schools.com/js/js_switch.asp)
