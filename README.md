@@ -156,6 +156,10 @@ For Example : `function callLastIndexOf() {
 14. [JavaScript Events](https://www.w3schools.com/js/js_events.asp)
 15. [JavaScript Methods](https://www.w3schools.com/js/js_array_methods.asp)
 16. [CSS Tutorial](https://www.w3schools.com/css/)
+17. [JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
+18. [JavaScript Arrays Methods](https://www.w3schools.com/js/js_arrays.asp)
+19. [JavaScript Strings](https://www.w3schools.com/js/js_strings.asp)
+20. [JavaScript String Methods](https://www.w3schools.com/js/js_string_methods.asp)
 
 ## Author
 Sneha Kale
